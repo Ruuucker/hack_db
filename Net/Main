@@ -1,6 +1,6 @@
 Net
         Brute   
-                Сервисов BruteX автоматом делает это с несколькими службами (https://github.com/1N3/BruteX.git)
+                Сервисов BruteX автоматом сканить сервисы nmap'ом и брутит входы (https://github.com/1N3/BruteX.git)
         
         
         Social
