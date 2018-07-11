@@ -4,4 +4,4 @@ Web
 
 Net
 
-https://github.com/Ruuucker/hack_db/Windows/
+https://github.com/Ruuucker/hack_db/Windows
