@@ -1,13 +1,13 @@
 # Hack_db
 
-Info Gagtering
+[Info Gagtering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/)
 
-Web
+[Web](https://github.com/Ruuucker/hack_db/blob/master/Web/)
 
-Net
+[Net](https://github.com/Ruuucker/hack_db/blob/master/Net/)
 
-[Windows](https://github.com/Ruuucker/hack_db/blob/master/Windows/Another%20one)
+[Windows](https://github.com/Ruuucker/hack_db/blob/master/Windows/)
 
-Linux
+[Linux](https://github.com/Ruuucker/hack_db/blob/master/Linux/)
 
-Android
+[Android](https://github.com/Ruuucker/hack_db/blob/master/Android/)
