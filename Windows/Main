@@ -78,7 +78,8 @@
                                                                                         suidshell.run("cmd.exe /c net user TEST TESTPWD /add", 0);
 
 
-
+                Тулза beroot используется для повышения привилегий (exe)
+                
 
              
 
