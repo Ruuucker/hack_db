@@ -99,7 +99,8 @@
                 
                 
                С локального админа до системы-изи с EasySystem (https://github.com/Cn33liz/EasySystem) просто exe-шник, запустил и система, работает по имперсонации
-               
-
+               Еще способ, тут нужно смотреть на версию (начиная с висты и заканчивая сервер 2012), нужен Powershell 2.0 и выше, и 2 или более CPU ядер, вот модуль метасплоита (exploit/windows/local/ms16_032_secondary_logon_handle_‐privesc) 
+                           И стоит чекнуть стоит ли патч (C:\Users\pentestlab> wmic qfe list | find "3139914")                                                                                                                                         так же Powershell (https://www.exploit-db.com/exploits/39719/)
+                                                                                                                                                                    и exe-шник (https://github.com/khr0x40sh/ms16-032)
              
 
