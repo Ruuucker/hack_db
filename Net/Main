@@ -1,6 +1,7 @@
 Net
         Brute   
                 Сервисов BruteX автоматом сканить сервисы nmap'ом и брутит входы (https://github.com/1N3/BruteX.git)
+                Отличный список словарёв (https://github.com/danielmiessler/SecLists)
         
         
         Social
@@ -43,3 +44,8 @@ Net
         Можно юзать bettercap, arspoof, даже модуль метасплоита, в итоге возьмёшь Хеши, или что еще поинтереснее
 
         1C: стоит изучит стоение этой системы, основная проблема в этом, что на сервере на портах 1540,1541,1560 нет паролей, так что можно брать RCE
+
+         MySQL
+                Версию можно чекать через msf брутить тоже, как и с nmap'ом,  важно проерять так же и на пустой пароль для юзеров root и anonymous
+                Проверяй на  CVE-2012-2122 ( auxiliary/scanner/mysql/mysql_authbypass_hashdump), nmap (nmap -sV --script mysql-vuln-cve2012-2122 <target>) он позволяетзайти под любым юзером (root) примерно 1 раз из 256.
+                   
