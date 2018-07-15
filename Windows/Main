@@ -15,20 +15,50 @@
              Все, теперь эти файлы можно скормить какой-нибудь утилите типа SAMInside для расшифровки полученных хешей.
              Если ты в AD то есть возможность сдампить всех пользователей домена с помощью копирование и расфишровки, как именно хз
              
+             Откоючение групповых политик на локальной машине, отключай от сети физически машину, входишь, потом подключаешь
+             
+             Тулзы для обхода глупповых политик и в часности SRP через dll хинжект (GPdisable, bpmtk,GPCul8or)
+             Погрузка кода через Binary Planting и обход ГП     1.    Переименовываем gpdisable.dll в ehTrace.dll.
+                                                                2.    Создаем папку с именем куку.{2E095DD0-AF56-47E4-A099-
+                                                                EAC038DECC24} (название любое, текст после точки исчезнет).
+                                                                3.    Кидаем ehTrace.dll в только что созданную папку.
+                                                                4.    Заходим в папку и создаем там любой документ в Word, Excel или, к 
+                                                                примеру, PDF’ку.
+                                                                5.    Теперь открываем только что созданный файл.
+                                                                6.    Соответствующая программа должна запуститься. И запустить 
+                                                                вместе с подгруженной DLL’кой
+             
+             Win+U = Unlitmen.exe, можно его запустить, через него включить справку, и так правым клюком по тексту хелпа посмотреть исходный код, через блокнот всё сёвфить, или попробовать добавить новый принтер
+             
+             Макросы, задаём макрос для открытия exe-шника и мы в шоколаде макрос(  Sub GOSHELL()
+                                                                                        Shell 
+                                                                                        "C:\windows\system32\regedit.exe", vbNormalFocus
+                                                                                        End Sub                 )
+             
              При использовании автоматической установки софта (unattended installation) в системе можно обнаружить вот такие файлы (post/windows/gather/enum_unattend) (    C:\unattend.xml
                                                                                                                                                                             C:\Windows\Panther\Unattend.xml
               Если на машине установлен IIS, то нелишним будет проверить файлы                                                                                              C:\Windows\Panther\Unattend\Unattend.xml
                  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\web.config                                                                                          C:\Windows\system32\sysprep.inf
                  C:\inetpub\wwwroot\web.config                                                                                                                              C:\Windows\system32\sysprep\sysprep.xml      )
                         в которых также может присутствовать пароль администратора в plaintext.                                                                          
-
+             Чекер какие у юзера права с точки зрения политик группы (https://docs.microsoft.com/ru-ru/sysinternals/downloads/accesschk)
                                                                                                                                                           
             Пароли групповой политики в случае локальной машины проверяем наличие файла по следующему пути:
                         C:\ProgramData\Microsoft\Group Policy\History\*\Machine\Preferences\Groups\Groups.xml                                                                                                                                             
                   Для контрол лера домена:
                            \\????\SYSVOL\\Policies\????\MACHINE\Preferences\Groups\Groups.xml
              Он зашифрован, расшифровать можно Metasploit (post/windows/gather/creden‐tials/gpp)
-
+               
+             Запуск VB кода из под кого угодно (        1.Создаем файлик с примерно таким текстом:
+                                                        <HTML>
+                                                        <script language="vbscript">
+                                                         msgbox "Im dangerous VB code!"
+                                                        </script>
+                                                        </HTML>
+                                                        2.Сохраняем его с расширением .hta (например, execute_this.hta).
+                                                        3.Создаем ярлык для него.
+                                                        4. Открываем ссылку — и hta запускается.        )
+               
             Планировщик задач можеть дать тебе админа, для этого нужно создать XML и запихнуть его в планировщик задач, только поменяй путь к пейлоаду и юзера в UserId         
                                                                                              Готовый файл:
                                                                                 <?xml version="1.0" encoding="UTF‐16"?>
