@@ -141,4 +141,5 @@
                                                                                                                                  New String(t) & file.Substring(d)
                                                                                                                                 System.IO.File.Move(file, dest)
                                                                                                                                 End Sub      )
-
+                
+              Изменение или клонирование имени файла с помощью кирилических букв и символов ZERO WIDTH Characters
