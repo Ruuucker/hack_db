@@ -189,6 +189,7 @@ brute)
  
 Tomcat
         Скрипт для заливки шелла (https://github.com/mgeeky/tomcatWarDeployer) через менеджер приложений
+        Юзать owasp zap для него
         
 
                         
