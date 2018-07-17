@@ -187,6 +187,8 @@ brute)
                                         exec sys.kupw$WORKER.main
                                         ('x','YY'' and 1=test.f1 –-');          )           
  
- 
+Tomcat
+        Скрипт для заливки шелла (https://github.com/mgeeky/tomcatWarDeployer) через менеджер приложений
+        
 
                         
