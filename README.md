@@ -1,5 +1,7 @@
 # Hack_db
 
+Вынес вердикт, юзать [ИХ](https://github.com/Ruuucker/hack_db/blob/master/MustSourses) как дополнение к этой db, пока что
+
 [Info Gagtering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/)
 
 [Web](https://github.com/Ruuucker/hack_db/blob/master/Web/)
