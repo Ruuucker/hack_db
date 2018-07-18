@@ -4,7 +4,7 @@
   
   
   Раздел всяких черных файлов для шелла
-                TheFatRat ( git clone https://github.com/Screetsec/TheFatRat) создаёт всякие черные exe,bat,ps1
+                TheFatRat ( git clone https://github.com/Screetsec/TheFatRat) создаёт всякие черные exe,bat,ps1,Ворды с макросами
                 morphHTA (https://github.com/vysec/morphHTA.git) обфуксатор powershell скриптов, пробитие всяких AV
                 Можно использовать черный ворд, или еще какой документ c макросами, (exploit/windows/dde_delivery), сам руби скрипт нуэно качать вот от сюда (https://raw.githubusercontent.com/realoriginal/metasploit-framework/fb3410c4f2e47a003fd9910ce78f0fc72e513674/modules/exploits/windows/script/dde_delivery.rb) и кидать сюда дабы он был виден метасплойту (cp dde_delivery.rb /usr/share/metasploit-framework/modules/exploits/windows/)
   
