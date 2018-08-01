@@ -3,6 +3,10 @@
                 Важненько, вот компиляция сплоитов под винду на лине, тулза mingw‐w64 (i686‐w64‐mingw32‐gcc 40564.c –o exploit.exe –lws2_32)
   
   
+  Тут список основных post (https://codeby.net/forum/threads/meterpreter-metasploit-windows-moduli.59219/)
+  
+  
+  
   Раздел всяких черных файлов для шелла
                 TheFatRat ( git clone https://github.com/Screetsec/TheFatRat) создаёт всякие черные exe,bat,ps1,Ворды с макросами
                 morphHTA (https://github.com/vysec/morphHTA.git) обфуксатор powershell скриптов, пробитие всяких AV
