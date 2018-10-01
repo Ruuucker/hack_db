@@ -32,7 +32,7 @@ LPE
                                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                 
+   Спавн консоли (shell python -c 'import pty;pty.spawn("/bin/bash")')                                                                                                                                                                                             
     
    
  
