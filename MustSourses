@@ -2,13 +2,18 @@
              [Два] (https://github.com/carpedm20/awesome-hacking)
              [Три] (https://github.com/swisskyrepo/PayloadsAllTheThings/)
              [Четыре] (http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
-             [Пять] (https://www.reddit.com/r/netsec/)
-             
+             [Пять] (https://www.reddit.com/r/netsec/)             
+----------- Всё это источники инфы ------------------------
+
+
+
+
 Аналог HTB, врядли буду там сидеть, но на всякий [https://www.vulnhub.com/]             
             
 Тут куча инфы по прив эску на все ОС [https://github.com/mubix/post-exploitation]
 Вот тут перечисленны бинарники которые можно узать для Lin LPE [https://gtfobins.github.io/] 
 Взламываемые прошивки [https://www.amanhardikar.com/mindmaps/Practice.html]
+Ман по настройке обычного реверс шелла до полного, неотличимого от домашнего [https://blog.fbkcs.ru/nice_shell/]  
   
 Это список годноты с "Хакера":  https://xakep.ru/2018/01/19/hacking-must-read/
 TODO
