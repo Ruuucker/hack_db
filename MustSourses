@@ -11,6 +11,7 @@
 Аналог HTB, врядли буду там сидеть, но на всякий [https://www.vulnhub.com/]             
             
 Тут куча инфы по прив эску на все ОС [https://github.com/mubix/post-exploitation]
+Прикольная тулза которая смотрит на дыры в винде, для LPE, работает со всеми версиями на данный момент [https://github.com/bitsadmin/wesng]
 Вот тут перечисленны бинарники которые можно узать для Lin LPE [https://gtfobins.github.io/] 
 Взламываемые прошивки [https://www.amanhardikar.com/mindmaps/Practice.html]
 Ман по настройке обычного реверс шелла до полного, неотличимого от домашнего [https://blog.fbkcs.ru/nice_shell/]  
