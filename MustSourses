@@ -31,3 +31,193 @@ TODO
 Сайт где находят дыры в опенсоурсе, можно смотреть что там находят и как часто и как это всё юзать (https://snyk.io/)
 
 Офтоп, клевый сaйт для кaстомизaции [dotshare.it]
+
+В общем, сюда я буду сгребать всю информацию которую нужно будет по немного употреблять и обрабатывать, 
+в последствии добавлять на блог в виде статей или прочей структурированной хуйни
+
+ПОДГОТОВКА К OSCP
+https://www.offensive-security.com/documentation/penetration-testing-with-kali.pdf
+https://github.com/frizb/OSCP-Survival-Guide
+https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+https://www.securitysift.com/download/linuxprivchecker.py
+https://github.com/HappyTreeFriend/linux-exploit-suggester
+https://github.com/HappyTreeFriend/kernel-exploits
+http://www.fuzzysecurity.com/tutorials/16.html
+https://github.com/pentestmonkey/windows-privesc-check
+https://github.com/abatchy17/WindowsExploits
+
+Общее количество машин 5 (2 набора по 25 баллов, 2 набора по 20 баллов, 1 набор по 10 баллов).
+Сложные машины в основном находятся в сегменте общедоступных сетей, и многие машины в интрасети собираются с помощью информации.
+Тема OSCP - использование частичных эксплойтов, и почти нет необходимости слишком много программировать и анализировать уязвимости.
+Я могу только сказать, что OSCP действительно слишком прост по сравнению со многими играми CTF. Это также может быть связано с позиционированием, главным образом с целью обучения и моделирования среды тестирования на проникновение.
+
+Mixed
+https://www.nop.cat/nmapscans/
+https://github.com/1N3/PrivEsc
+https://github.com/xapax/oscp/blob/master/linux-template.md
+https://github.com/xapax/oscp/blob/master/windows-template.md
+https://github.com/slyth11907/Cheatsheets
+https://github.com/erik1o6/oscp/
+https://backdoorshell.gitbooks.io/oscp-useful-links/content/
+https://highon.coffee/blog/lord-of-the-root-walkthrough/
+
+MsfVenom
+https://www.offensive-security.com/metasploit-unleashed/msfvenom/
+https://netsec.ws/?p=331
+
+Shell Escape Techniques
+https://netsec.ws/?p=337
+https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells
+https://airnesstheman.blogspot.ca/2011/05/breaking-out-of-jail-restricted-shell.html
+https://speakerdeck.com/knaps/escape-from-shellcatraz-breaking-out-of-restricted-unix-shells
+
+Pivoting
+http://www.fuzzysecurity.com/tutorials/13.html
+http://exploit.co.il/networking/ssh-tunneling/
+https://www.sans.org/reading-room/whitepapers/testing/tunneling-pivoting-web-application-penetration-testing-36117
+https://highon.coffee/blog/ssh-meterpreter-pivoting-techniques/
+https://www.offensive-security.com/metasploit-unleashed/portfwd/
+
+Linux Privilege Escalation
+https://0x90909090.blogspot.ie/2015/07/no-one-expect-command-execution.html
+https://resources.infosecinstitute.com/privilege-escalation-linux-live-examples/\#gref
+https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+https://github.com/mzet-/linux-exploit-suggester
+https://github.com/SecWiki/linux-kernel-exploits
+https://highon.coffee/blog/linux-commands-cheat-sheet/
+https://www.defensecode.com/public/DefenseCode_Unix_WildCards_Gone_Wild.txt
+https://github.com/lucyoa/kernel-exploits
+https://www.rebootuser.com/?p=1758
+https://www.securitysift.com/download/linuxprivchecker.py
+https://www.youtube.com/watch?v=1A7yJxh-fyc
+https://www.youtube.com/watch?v=2NMB-pfCHT8
+https://www.youtube.com/watch?v=dk2wsyFiosg
+https://www.youtube.com/watch?v=MN3FH6Pyc_g
+https://www.slideshare.net/nullthreat/fund-linux-priv-esc-wprotectionshttps://www.exploit-db.com/exploits/39166/https://www.exploit-db.com/exploits/15274/
+
+Windows Privilege Escalation
+https://blog.cobaltstrike.com/2014/03/20/user-account-control-what-penetration-testers-should-know/
+https://github.com/foxglovesec/RottenPotato
+https://github.com/GDSSecurity/Windows-Exploit-Suggester/blob/master/windows-exploit-suggester.py
+https://github.com/pentestmonkey/windows-privesc-check
+https://github.com/PowerShellMafia/PowerSploit
+https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/Windows/Windows_Privilege_Escalation.md
+https://github.com/SecWiki/windows-kernel-exploits
+https://hackmag.com/security/elevating-privileges-to-administrative-and-further/
+https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/
+https://toshellandback.com/2015/11/24/ms-priv-esc/
+https://www.gracefulsecurity.com/privesc-unquoted-service-path/
+https://www.commonexploits.com/unquoted-service-paths/
+https://www.exploit-db.com/dll-hijacking-vulnerable-applications/
+https://www.youtube.com/watch?v=kMG8IsCohHA&feature=youtu.be
+https://www.youtube.com/watch?v=PC_iMqiuIRQ
+https://www.youtube.com/watch?v=vqfC4gU0SnY
+https://www.exumbraops.com/penetration-testing-102-windows-privilege-escalation-cheatsheet/X
+https://www.fuzzysecurity.com/tutorials/16.html
+http://www.labofapenetrationtester.com/2015/09/bypassing-uac-with-powershell.html
+
+Shellterlabs : Writing exploits - https://shellterlabs.com/en/training/get-started/writing-exploits/
+Shellter Hacking Express challenges - https://shellterlabs.com/en/contests/challenges/?event=10
+Windows BOF PCMan FTP - http://netsec.ws/?p=180
+Hack the box - http://hackthebox.eu
+Nishang : PowerShell scripts - https://github.com/samratashok/nishang
+Windows Privilege Escalation Fundamentals - http://www.fuzzysecurity.com/tutorials/16.html
+Basic Linux Privilege Escalation - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+Pentest Tips and Tricks - https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/
+Nmap cheat sheet - https://highon.coffee/blog/nmap-cheat-sheet/
+SANS Institute : Port Knocking basics - https://www.sans.org/reading-room/whitepapers/sysadmin/port-knocking-basics-1634
+Teck_K2 OSCP review - https://teckk2.github.io/category/OSCP.html
+m4lv0id OSCP review - https://medium.com/@m4lv0id/and-i-did-oscp-589babbfea19
+The definitive hacking playlist - https://soundcloud.com/intrd/sets/hacking
+
+fuzzyf10w:
+https://github.com/b1n4ry4rms/RedTeam-Pentest-Cheatsheets
+
+КРУТЬ, тачки, ролики якобы настоящих прохождений
+magnet:?xt=urn:btih:f91feb6d2ea93f1c3c03b6be52051c2df72da1b7&dn=CERTCOLLECTION+-+BASELINE+-+SANS+%26+Offensive-Security&tr=udp%3A//tracker.coppersurfer.tk%3A6969&tr=udp%3A//tracker.zer0day.to%3A1337&tr=udp%3A//public.popcorn-tracker.org%3A6969&tr=udp%3A//tracker.leechers-paradise.org%3A6969&tr=udp%3A//explodie.org%3A6969
+
+Ones more info
+https://github.com/juliocesarfort/public-pentesting-reports
+http://jameelnabbo.com/tag/oscp-exam/
+https://scriptdotsh.com/index.php/2018/04/17/31-days-of-oscp-experience/
+https://0x85.dk/?m=201803
+https://github.com/ferreirasc/oscp
+
+Куча инфы 
+https://mega.nz/#!Cn5RWQqJ
+Ключ 3WwIWLVh09kM1alGmgujktHvEAo9bOMT2t2h3GEIzGk
+
+Открытые базы РФ для пробива
+https://jivoi.github.io/2015/07/04/otkrytyie-bazy-dannykh-rf/
+
+Linux-unix tips
+https://jivoi.github.io/2015/08/17/linux-unix-it-tips-and-tricks-number-4/
+
+Учить Android
+https://jivoi.github.io/2015/07/17/learning-android/
+
+Поиск it работы
+https://jivoi.github.io/2015/08/21/awesome-it-jobs/
+
+Переход арча с hdd на ssd
+https://jivoi.github.io/2016/04/04/move-from-hdd-to-ssd-with-archlinux/
+
+Tips and tricks pentest
+https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/
+
+your offsec knowledge 
+https://github.com/jivoi/offsec_pdfs
+
+Machine Learning for Cyber Security 
+https://github.com/jivoi/awesome-ml-for-cybersecurity
+
+A curated list of amazingly awesome OSINT 
+https://github.com/jivoi/awesome-osint
+
+offsec batteries included 
+https://github.com/jivoi/pentest
+
+qa-regression-testing
+https://github.com/jivoi/qa-regression-testing
+
+openssh-backdoor-kit just for fun
+https://github.com/jivoi/openssh-backdoor-kit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
