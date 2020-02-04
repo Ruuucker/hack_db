@@ -1,6 +1,6 @@
 # Hack_db
 
-Вынес вердикт, юзать [их](https://github.com/Ruuucker/hack_db/blob/master/MustSourses) как дополнение к этой db, пока что
+[Дополнение](https://github.com/Ruuucker/hack_db/blob/master/MustSourses)
 
 [Info Gagtering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/Main/)
 
