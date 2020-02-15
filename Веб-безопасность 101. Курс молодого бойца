@@ -1,0 +1,80 @@
+Другие справочники:
+http://kmb.ufoctf.ru/
+
+Чтение книг
+Должно проходить каждый день, на бекграунде независимо от других активностей. 50 страниц в день - хороший прогресс.
+
+1. The Tangled Web
+2. The Web Application Hackers’ Handbook, 2nd Edition
+3. The Mobile Application Hacker's Handbook
+4. The Browser’s Hackers’ Handbook
+5. Practical Reverse Engineering
+6. Crypto 101 (https://www.crypto101.io/)
+
+Развитие практических навыков
+Примечание: все это делается руками из под браузера и Burp Suite. Использовать инструменты типа сканеров и sqlmap - тупо, т.к. вы ничему не научитесь.
+Научиться пользовать Burp Suite Free (прочитать всю документацию, посмотреть обучающие видео).
+pentesterlab.com
+https://www.hacksplaining.com/exercises 
+Пройти максимальное количество лабораторий на https://www.hacking-lab.com/index.html и https://www.hackthebox.eu/  
+Пройти все задания на http://escape.alf.nu/.
+Пройти все задания на http://mytestinghostlol.altervista.org/SQLi/.
+Пройти как можно больше заданий на https://hack.me/, среди них обязательно вот эти: https://hack.me/t/XML.
+Попробовать зайти как можно дальше на http://www.root-me.org/?lang=en 
+Пройти как можно больше заданий на https://www.mysterytwisterc3.org/en/, среди них взять обязательно задания на padding.
+Пройти как можно больше wargame’ов на http://overthewire.org/wargames/ , идя по упорядоченному уровню сложности написанному на главной странице
+Пройти http://pwnable.kr 
+Пройти как можно больше на http://crackmes.de
+Пройти все на http://cryptopals.com/ 
+
+Чтение блогов и теории
+Как работает браузер: http://taligarsiel.com/Projects/howbrowserswork1.htm 
+Познать OAuth и баги, с ним связанные:
+http://webstersprodigy.net/2013/05/09/common-oauth-issue-you-can-use-to-take-over-accounts/
+http://www.slideshare.net/goldshlager19/nir-goldshlager-killing-a-bug-bounty-program-twice-hack-in-the-box-2012
+http://homakov.blogspot.ru/2014/01/token-fixation-in-paypal.html
+Познать хардкорные виды XSS: DOM-based XSS и mXSS:
+http://html5sec.org/
+https://code.google.com/p/mustache-security/
+https://ben-stock.de/2013/09/summary-of-our-ccs-paper-on-dom-based-xss/
+http://goo.gl/JST0Fj
+http://www.rafayhackingarticles.net/2014/03/a-tale-of-dom-based-xss-in-paypal.html
+https://cure53.de/fp170.pdf
+Познать XML-атаки и SSRF
+http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf
+https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit
+http://sensepost.com/blog/10178.html
+http://web-in-security.blogspot.ru/2016/03/xxe-cheat-sheet.html 
+Почитать различные Case Study и репорты реальных багов:
+http://habrahabr.ru/post/234331/
+https://hackerone.com/hacktivity/popular 
+Можно подписаться и почитать заметки в следующих блогах:
+http://blog.portswigger.net/ 
+http://phrack.org/issues/69/12.html 
+https://www.contrastsecurity.com/security-influencers 
+http://web-in-security.blogspot.ru/
+http://www.breaksec.com/?page_id=6002 
+http://blog.innerht.ml/ 
+https://www.evonide.com/ 
+https://lcamtuf.blogspot.ru/ 
+
+Рекомендуемые подписки на твиттер (живые аккаунты, которые публикуют ссылки на статьи и делают интересные ретвиты):
+https://twitter.com/albinowax 
+https://twitter.com/artsploit 
+https://twitter.com/Agarri_FR 
+https://twitter.com/Black2Fan 
+https://twitter.com/Burp_Suite 
+https://twitter.com/dnkolegov 
+https://twitter.com/dsrbr 
+https://twitter.com/garethheyes 
+https://twitter.com/kinugawamasato 
+https://twitter.com/lcamtuf 
+https://twitter.com/thorstenholz 
+
+
+
+Любителям реверсинга
+https://www.contextis.com/resources/white-papers/glibc-adventures-the-forgotten-chunks 
+Что дальше?
+Участвовать в Bug Bounty! Вот хороший хаб для вас - https://hackerone.com/. 
+Актуальный список Bug Bounty еще есть вот тут: https://bugcrowd.com/list-of-bug-bounty-programs.
