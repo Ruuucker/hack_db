@@ -40,9 +40,11 @@ void ft_putstr(char *str)
 	int rev_str;
 	int x = 0;
 
-	while(str[i] != '\0')
+	while(i >= 0)
 	{
 		rev_str[x] = str[i];
+		i--;
+		x++;
 	}
 	return (rev_str);
 }
