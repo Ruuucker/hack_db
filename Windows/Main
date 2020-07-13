@@ -178,3 +178,37 @@
                 
               Изменение или клонирование имени файла с помощью кирилических букв и символов ZERO WIDTH Characters
 Как узнать хеш запороленного архива? Открываем CMD Там прописываем путь rar2john.exe (пробел) путь к запароленому RAR
+
+
+Хочу поделиться с тобой и еще одним интересным скриптом, который покажет тебе все SPN для всех пользователей и всех компьютеров.
+
+$search = New-Object DirectoryServices.DirectorySearcher([ADSI]"")
+$search.filter = "(servicePrincipalName=*)"
+$results = $search.Findall()
+foreach($result in $results){
+    $userEntry = $result.GetDirectoryEntry()
+    Write-host "Object Name = " $userEntry.name -backgroundcolor "yellow" -foregroundcolor "black"
+    Write-host "DN      =      "  $userEntry.distinguishedName
+    Write-host "Object Cat. = "  $userEntry.objectCategory
+    Write-host "servicePrincipalNames"
+    $i=1
+    foreach($SPN in $userEntry.servicePrincipalName)
+    {
+        Write-host "SPN(" $i ")   =      " $SPN       $i+=1
+    }
+    Write-host "" 
+}
+
+PoserShell Empire, Koadic, CrackMapExec, Impacket - хороши для пост эксплуатации
+
+
+
+
+
+
+
+
+
+
+
+
