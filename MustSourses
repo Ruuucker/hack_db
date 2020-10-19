@@ -1,6 +1,9 @@
 
 OSINT по доменам https://github.com/laramies/theHarvester
 
+Квик гайд по классическому ntlm relay используя спуфинг от responder и импакет ntlmrelayx (https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
+Тупо спуфим респондером но отключаем smb сервер на нём потому как у нас будет серер от ntlmrelayx а от респондера нам нужен только спуфинг
+
 Сaйты чтобы держaть руку нa пульсе ИБ: https://www.securityvoices.org/
                                         https://www.csoonline.com/
                                         https://krebsonsecurity.com/
