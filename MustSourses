@@ -1,4 +1,6 @@
 
+Автосборщик PoC с гитхаба, мега полезно https://github.com/nomi-sec/PoC-in-GitHub
+
 OSINT по доменам https://github.com/laramies/theHarvester
 
 Квик гайд по классическому ntlm relay используя спуфинг от responder и импакет ntlmrelayx (https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
