@@ -1,4 +1,10 @@
 
+Классный тип для пентеста домена, помино python bloodhound можно использовать родные для винды средства
+Extra Tips
+If you don’t have access to a domain connected machine but you have creds, BloodHound can be run from your host system using runas. The following lines will enable you to query the Domain from outside the domain:
+runas /netonly /user:FQDN.local\USER powershell
+This will prompt for the user’s password then should launch a new powershell window, from here you can import sharphound as you would normally:
+
 Автосборщик PoC с гитхаба, мега полезно https://github.com/nomi-sec/PoC-in-GitHub
 
 OSINT по доменам https://github.com/laramies/theHarvester
