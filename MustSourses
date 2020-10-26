@@ -1,4 +1,10 @@
 
+Атаки на экчендж
+https://github.com/sensepost/ruler
+EWS релей https://github.com/Arno0x/NtlmRelayToEWS
+https://github.com/dirkjanm/PrivExchange
+
+
 Классный тип для пентеста домена, помино python bloodhound можно использовать родные для винды средства
 Extra Tips
 If you don’t have access to a domain connected machine but you have creds, BloodHound can be run from your host system using runas. The following lines will enable you to query the Domain from outside the domain:
