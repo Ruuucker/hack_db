@@ -4,6 +4,8 @@ https://github.com/sensepost/ruler
 EWS релей https://github.com/Arno0x/NtlmRelayToEWS
 https://github.com/dirkjanm/PrivExchange
 
+Вытягивает dns из дц, классная вещь
+https://github.com/dirkjanm/adidnsdump
 
 Классный тип для пентеста домена, помино python bloodhound можно использовать родные для винды средства
 Extra Tips
