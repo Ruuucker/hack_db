@@ -2,7 +2,7 @@
 
 [Дополнение](https://github.com/Ruuucker/hack_db/blob/master/MustSourses)
 
-[InfoSec Books](https://github.com/Ruuucker/hack_db/blob/master/InfoSec\ Books.txt)
+[InfoSec Books](https://github.com/Ruuucker/hack_db/blob/master/InfoSecBooks.txt)
 
 [Info Gathering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/Main/)
 
