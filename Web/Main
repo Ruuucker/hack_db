@@ -29,3 +29,89 @@ ToDo
         Пройти лабы PortSwigger [https://portswigger.net/web-security/dashboard]
         Перебрать все ссылки [https://github.com/Ruuucker/hack_db/blob/master/%D0%92%D0%B5%D0%B1-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20101.%20%D0%9A%D1%83%D1%80%D1%81%20%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B3%D0%BE%20%D0%B1%D0%BE%D0%B9%D1%86%D0%B0]
         
+Cheat Sheet
+🔥Complete Bug Bounty Cheat Sheet🔥
+
+XSS
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/xss.md
+https://github.com/ismailtasdelen/xss-payload-list
+
+SQLi
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/sqli.md
+
+SSRF
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/ssrf.md
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
+
+CRLF
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/crlf.md
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CRLF%20Injection
+
+CSV-Injection
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/csv-injection.md
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection
+
+Command Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection
+
+Directory Traversal
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Directory%20Traversal
+
+LFI
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/lfi.md
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion
+
+XXE
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/xxe.md
+
+Open-Redirect
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/open-redirect.md
+
+RCE
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/rce.md
+
+Crypto
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/crypto.md
+
+Template Injection
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/template-injection.md
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection
+
+XSLT
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/xslt.md
+
+Content Injection
+https://github.com/EdOverflow/bugbounty-cheatsheet/blob/master/cheatsheets/content-injection.md
+
+LDAP Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/LDAP%20Injection
+
+NoSQL Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/NoSQL%20Injection
+
+CSRF Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection
+
+GraphQL Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/GraphQL%20Injection
+
+IDOR
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Insecure%20Direct%20Object%20References
+
+ISCM
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Insecure%20Source%20Code%20Management
+
+LaTex Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/LaTeX%20Injection
+
+OAuth 
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/OAuth
+
+XPATH Injection
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XPATH%20Injection
+
+Bypass Upload Tricky
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files
+
+
+
