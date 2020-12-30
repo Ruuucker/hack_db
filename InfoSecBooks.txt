@@ -15,3 +15,7 @@ RTFM, Red Team Field Manual; Ben Clark
 
 The Web Application Hacker’s Handbook; Dafydd Stuttard, Marcus Pinto [Completed]
 
+Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon; Kim Zetter
+
+Android Security Internals; Nikolay Elenkov
+
