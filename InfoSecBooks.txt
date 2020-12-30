@@ -1,1 +1,17 @@
 
+A Bug Hunter’s Diary; Tobias Klein
+
+Advanced Persistent Threat Hacking; Tyler Wrightson
+
+Gray Hat Hacking: The Ethical Hacker’s Handbook; Daniel Regalado, Shon Harris, Allen Harper, Chris Eagle, Jonathan Ness, Branko Spasojevic, Ryan Linn, Stephen Sims
+
+Хакинг, искусство эксплоитинга;  Джон Эриксон [Completed]
+
+Black Hat Python: Python Programming forHackers and Pentesters; Justin Seitz
+
+Penetration testing, a Hands-on introduction to Hacking; Georgia Weidman
+
+RTFM, Red Team Field Manual; Ben Clark
+
+The Web Application Hacker’s Handbook; Dafydd Stuttard, Marcus Pinto [Completed]
+
