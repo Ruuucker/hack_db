@@ -2,7 +2,7 @@
 
 [Дополнение](https://github.com/Ruuucker/hack_db/blob/master/MustSourses)
 
-[Info Gagtering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/Main/)
+[Info Gathering](https://github.com/Ruuucker/hack_db/blob/master/Info%20Gathering/Main/)
 
 [Web](https://github.com/Ruuucker/hack_db/blob/master/Web/Main/)
 
