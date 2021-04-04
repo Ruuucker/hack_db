@@ -1,4 +1,11 @@
 
+Прекрасный сайт для низкого уровня понимания вирусов
+https://vx-underground.org/papers.html
+
+Очень большая база тулз по рекону https://github.com/nahberry/awesome-recon-tools
+Тулза для авто-рекона https://github.com/Tib3rius/AutoRecon нахер в принципе не нужна, то потыкать можно
+https://github.com/21y4d/nmapAutomator Тоже самое что и выше
+
 Go реализация recog проекта, который содержит базу фингерпринта и имеет скан, вроде как https://github.com/RumbleDiscovery/recog-go
 
 Большое количество PoC сплоитах https://github.com/nomi-sec/PoC-in-GitHub
