@@ -332,10 +332,71 @@ https://habr.com/ru/company/pentestit/blog/555590/
 Анализы малвари
 https://chuongdong.com/blog/
 
+Таблица syscall windows
+https://github.com/j00ru/windows-syscalls
 
+Malware wiki
+https://malwiki.org/index.php?title=Main_Page
 
+Nice playbook
+https://threathunterplaybook.com/introduction.html
 
+vulnerability lab
+https://www.vulnerability-lab.com/
 
+reverse tutorial
+https://0x41.cf/reversing/2021/07/21/reversing-x86-and-c-code-for-beginners.html
+
+malware samples, addon to vx undeground
+https://github.com/RamadhanAmizudin/malware
+
+Another CTF
+hackme.cyberpoly.ru
+
+Bug Bounty Write Ups Search
+https://www.bugbountyhunting.com/
+
+Notes About APTs
+https://github.com/aptnotes/data
+
+Reverse Shell to fully interactive
+https://oscp.infosecsanyam.in/shells/reverse-shell-to-fully-interactive
+
+FragAttack on WiFi
+https://www.fragattacks.com/
+
+IT Sec Tips And tricks
+https://decoder.cloud/
+
+- Practical Ethical Hacking - The Complete Course
+https://t.me/ThDrksdHckr/634
+
+- Windows Privilege Escalation for Beginners
+https://t.me/ThDrksdHckr/653
+
+- Linux Privilege Escalation for Beginners
+https://t.me/ThDrksdHckr/955 (updated)
+
+- OSCP Security Technology Prep Course (ine.com) - OFFENSIVE SECURITY
+https://t.me/ThDrksdHckr/664
+
+- Open-Source Intelligence (OSINT) Fundamentals
+https://t.me/ThDrksdHckr/1063
+
+Reverse for Begginers
+https://beginners.re/
+
+Классная книжка по Linux API
+http://nnmclub.to/forum/viewtopic.php?t=1258588
+
+Общие действия по пентесту периметра
+На­ши дей­ствия будут сле­дующи­ми.
+
+    Сос­тавля­ем спи­сок всех под­доменов и получа­ем их IP-адре­са.
+    За­пус­каем ска­нер пор­тов, нап­ример, Nmap. На вход отправ­ляем IP из пре­дыду­щего шага, а на выходе получа­ем откры­тые пор­ты и спи­сок запущен­ных сер­висов.
+    Най­ден­ные веб‑сер­висы отправ­ляем в дир­бастер, что­бы соб­рать инте­рес­ные фай­лы и дирек­тории, а на бинар­ных — бру­тим пароли.
+    Про­ходим­ся по веб‑сер­висам кра­уле­ром с целью соб­рать фор­мы, домены и HTTP-зап­росы. Для каж­дого нового домена пов­торим алго­ритм с шага 2.
+    HTTP-зап­росы отправ­ляем в фаз­зер, что­бы най­ти скры­тые парамет­ры и про­ана­лизи­ровать их. И даль­ше в таком же клю­че.
 
 
 
