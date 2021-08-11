@@ -247,16 +247,84 @@ openssh-backdoor-kit just for fun
 https://github.com/jivoi/openssh-backdoor-kit
 
 
+Full chain FIrefox exploit
+https://github.com/0vercl0k/CVE-2019-11708
+
+https://www.pwnadventure.com/
+
+Malware
+https://www.malvuln.com/
+
+Defcon media server
+https://media.defcon.org/DEF%20CON%2028/DEF%20CON%20Safe%20Mode%20villages/
+
+Web Hack akademi
+https://portswigger.net/web-security
+
+Big OSINT Guide
+https://osint.link/
+
+GeoHotz solving CTF, may be cool
+https://www.youtube.com/watch?v=Sx7JszqkL-w
+
+OSCP machines
+https://www.abatchy.com/2017/02/oscp-like-vulnhub-vms
+
+Searching bugs with google tracking
+https://medium.com/@luanherrera/xs-searching-googles-bug-tracker-to-find-out-vulnerable-source-code-50d8135b7549
 
 
+Для скана интернета и поиска открытых БД используется Shodan, Binaryedge, Lampyre
+
+Полезно Прошерстить по веб архивам тестируемого сайта для того чтобы выяснить, какие линки могут остаться в современной версии
+
+Англоязычные книги по иб
+https://habr.com/ru/company/mailru/blog/282700/
 
 
+Список ресурсов с бесплатными знаниями
+https://github.com/joe-shenouda/awesome-cyber-skills
+на тему как прокачать скиллы
+Игра на поиск уязвимостей
+http://www.gameofhacks.com/
+Хакипедия
+http://hakipedia.com/index.php/Hakipedia
+Полезные закладочки
+https://github.com/jhaddix/pentest-bookmarks/blob/wik..
+Список "крутецких" листов по разным ЯП
+https://github.com/bayandin/awesome-awesomeness
+Неплохой блог еще одного чувака
+https://raz0r.name/
+На тему системного администрирования и ОС
+http://system-administrators.info/
+https://vds-admin.ru/unix-toolbox
+http://linuxoid.in/Linuxoid_Wiki_Project
+Ну и НОРМ ФОРУМ №3
+https://forum.antichat.ru/
 
+Часть 1 - https://cloud.mail.ru/public/L86m/QJXfw7XZZ
+Часть 2 - https://cloud.mail.ru/public/3nHC/cynbpYXeP
+Часть 3 - https://cloud.mail.ru/public/5ajJ/idrKS8rMd
+Часть 4 - https://cloud.mail.ru/public/EoxY/JycFiPtTg
+Часть 5 - https://cloud.mail.ru/public/3vQn/8dmy9UHdV (пасс:gznfzxfcnm)
+Часть 6 - https://cloud.mail.ru/public/JhUr/vokpoB16F
+Часть 7 - https://yadi.sk/d/mdXxbu2YyGA9Y
+Часть 8 - https://yadi.sk/d/zIpaG8I332MbXh
 
+SET
+https://xakep.ru/2011/01/18/54557/
 
+Тоже что=то по поводу курсов
+https://disk.yandex.ru/d/Od0m1af0sCKGw
 
+Скан сервис мозиллы
+https://observatory.mozilla.org/
 
+Обход 802.1х в LAN
+https://habr.com/ru/company/jetinfosystems/blog/564238/
 
+Реверс
+https://github.com/hdbreaker/RicardoNarvaja_ExploitingWithIDAPRO_Desde0
 
 
 
